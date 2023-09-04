@@ -106,13 +106,13 @@ There are 3 different types of user defined constructor :
 
 If we don't write any of the 3 constuctors above then the 4th kind default constructor is provided by compiler.
 
-COPY CONSTUCTOR : Say we went to a shop to buy a marker. On asking for marker you didn't specify brand, colour, kind etc.
+ Say we went to a shop to buy a marker. On asking for marker you didn't specify brand, colour, kind etc.
                 Then it is only natural tendency of shop keeper to hand over the most sold marker or most common one.
 This was more like non parameterized kind of constructor.
 Next day, you go to the shop specify the brand, color, kind etc. for the marker and you get that one. This is more like
 parameterized constructor.
 
-Going to shop and showing to shopkeeper hey I want a marker like the one I am holding in my hand then shopkeeper sees
+Copy constructor: Going to shop and showing to shopkeeper hey I want a marker like the one I am holding in my hand then shopkeeper sees
 the marker and gives you a copy of that marker. So this is like copy constructor. So if we have a rectangle object and
 we want to create another rectangle similar to what we have already then we use copy constructor. This is taken as
 by reference most of the times and not by value.
